@@ -43,11 +43,9 @@ class ReplayBuffer:
 
 
 def train_dqn(env, run, episodes=1000, batch_size=64, gamma=0.99, lr=1e-3, tau=0.005, start_training=1000, epsilon=1.0, epsilon_min=0.05, epsilon_decay=0.995):
-
-    # Initialize the Q-network and target network
     q_net = QNetwork(env) # Q-network for DQN
     target_net = QNetwork(env) # Target network for DQN
-    target_net.load_state_dict(q_net.state_dict())
+    target_net.load_state_dict(q_net.state_dict()) # Initialize target network with same weights as Q-network
     target_net.eval()  # Set target network to evaluation mode
 
     optimizer = torch.optim.Adam(q_net.parameters(), lr=lr)

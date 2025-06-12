@@ -4,7 +4,7 @@ import gymnasium
 from networks import PolicyNet, ValueNet
 from reinforce import reinforce
 from common import run_episode
-from Qnetworks import train_dqn
+from qnetworks import train_dqn
 
 def parse_args():
     """The argument parser for the main training script."""
@@ -39,16 +39,14 @@ if __name__ == "__main__":
         }
     )
 
-    # Select environment
-    env_name = "LunarLander-v3"
-    args.agent = 'dqn'
+
     env = gymnasium.make(args.env_name)
     if args.env_name == "LunarLander-v3" and args.agent == 'reinforce':
         args.episodes = 2000  # More episodes for REINFORCE on LunarLander
 
     # Train the selected agent
     if args.agent == 'reinforce':
-        if env_name == "CartPole-v1":
+        if args.env_name == "CartPole-v1":
             policy = PolicyNet(env)
             value_net = ValueNet(env)
         else:
