@@ -70,6 +70,15 @@ The second lab explores Reinforcement Learning in simulated Gymnasium environmen
 - DQN showed greater stability and efficiency  
 - wandb helped directly compare policy- and value-based agents
 
+### 🔗 wandb Results Links
+- **Value Network (CartPole):**  
+  [https://wandb.ai/marco-digesare-university-of-florence/DLA2025-Cartpole/runs/5tf1lgge?nw=nwusermarcodigesare](https://wandb.ai/marco-digesare-university-of-florence/DLA2025-Cartpole/runs/5tf1lgge?nw=nwusermarcodigesare)
+- **Standard Baseline (CartPole):**  
+  [https://wandb.ai/marco-digesare-university-of-florence/DLA2025-Cartpole/runs/guyu6z4j?nw=nwusermarcodigesare](https://wandb.ai/marco-digesare-university-of-florence/DLA2025-Cartpole/runs/guyu6z4j?nw=nwusermarcodigesare)
+- **LunarLander:**  
+  [https://wandb.ai/marco-digesare-university-of-florence/DLA2025-Cartpole/runs/4dqmzi5d?nw=nwusermarcodigesare](https://wandb.ai/marco-digesare-university-of-florence/DLA2025-Cartpole/runs/4dqmzi5d?nw=nwusermarcodigesare) 
+- **DQN:**  
+  [https://wandb.ai/marco-digesare-university-of-florence/DLA2025-Cartpole/runs/k6fmtixk?nw=nwusermarcodigesare](https://wandb.ai/marco-digesare-university-of-florence/DLA2025-Cartpole/runs/k6fmtixk?nw=nwusermarcodigesare)
 ---
 
 ## 🤖 Lab 3 – Transformers: Feature Extraction and Fine-tuning with BERT
