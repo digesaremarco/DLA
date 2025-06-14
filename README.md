@@ -103,3 +103,10 @@ The third lab focuses on using **pretrained Transformers** (such as DistilBERT a
 - All labs are implemented in **PyTorch**  
 - Notebooks are compatible with **Google Colab**  
 - The project shows a gradual progression from traditional CNN architectures to modern Transformers like BERT
+
+---
+
+## 💡 AI Tools Used
+
+- **ChatGPT** was used to resolve minor bugs, clarify implementation doubts, and assist in formatting this README.
+- **GitHub Copilot** was used to speed up code writing by providing intelligent code completions and suggestions.
